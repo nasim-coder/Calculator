@@ -5,42 +5,73 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My calculator</title>
+    <style>
+        button {
+            width: 70px;
+            height: 65px;
+            background-color: rgb(21, 240, 105);
+        }
+        .clear {
+            width: 144px;
+        }
+        .calc-container {
+            text-align: center;
+            padding: 50px;
+        }
+        .button-container{
+            padding: 5px;
+        }
+        .results{
+            background-color: rgb(21, 240, 105);
+            height: 50px;
+            width: 285px;
+            text-size-adjust: 10px;
+            font-size: 25px;
+        }
+    </style>
 </head>
 <body>
-    <div>
-        <div>
+
+        <div class="calc-container">
             <div>
-            <input type="text" name = "" placeholder="your results here!">
-            </div>
-            <div>
-            <button type="button" value = "1"></button>
-            <button type="button" value = "2"></button>
-            <button type="button" value = "3"></button>
-            <button type="button" value = "4"></button>
-            </div>
-            <div>
-            <button type="button" value = "5"></button>
-            <button type="button" value = "6"></button>
-            <button type="button" value = "7"></button>
-            <button type="button" value = "8"></button>
-            </div>
-            <div>
-            <button type="button" value = "9"></button>
-            <button type="button" value = "0"></button>
-            <button type="button" value = "/"></button>
-            <button type="button" value = "x"></button>
-            </div>
-            <div>
-            <button type="button" value = "+"></button>
-            <button type="button" value = "-"></button>
-            <button type="button" value = "clear"></button>
+            <input class="results" type="text" name = "" placeholder="your results here!">
             </div>
 
+            <div class="button-container">
+
+            <div>
+            <button type="button" value = "1">1</button>
+            <button type="button" value = "2">2</button>
+            <button type="button" value = "3">3</button>
+            <button type="button" value = "4">4</button>
+            </div>
+
+            <div>
+            <button type="button" value = "5">5</button>
+            <button type="button" value = "6">6</button>
+            <button type="button" value = "7">7</button>
+            <button type="button" value = "8">8</button>
+            </div>
+
+            <div>
+            <button type="button" value = "9">9</button>
+            <button type="button" value = "0">0</button>
+            <button class="clear" type="button" value = "clear">clear</button>
+            </div>
+
+            <div>
+            <button type="button" value = "+">+</button>
+            <button type="button" value = "-">-</button>
+            <button type="button" value = "/">/</button>
+            <button type="button" value = "x">x</button>
+            </div>
+            
+            </div>
         </div>
 
 
 
 
-    </div>
+    
 </body>
 </html>
