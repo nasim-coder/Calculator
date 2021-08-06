@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My calculator</title>
+    <script src="calc.js" ></script>
     <style>
         button {
             width: 70px;
@@ -39,14 +40,14 @@
 
         <div class="calc-container">
             <div>
-            <input class="results" type="text" name = "" placeholder="your results here!">
+            <input class="results" id = "result" type="text" name = "" placeholder="your results here!">
             </div>
 
             <div class="button-container">
 
             <div>
-            <button id = "one" type="button" value = "1">1</button>
-            <button id = "two" type="button" value = "2">2</button>
+            <button id = "one" type="button" value = "1" onclick="getOne()">1</button>
+            <button id = "two" type="button" value = "2" onclick="getTwo()">2</button>
             <button id = "three" type="button" value = "3">3</button>
             <button id = "four" type="button" value = "4">4</button>
             </div>
