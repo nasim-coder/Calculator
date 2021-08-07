@@ -82,8 +82,6 @@ function getZero(){
 }
 
 function clearIt(){
-    // let zero = document.getElementById('zero').value;
-    // console.log(zero);
     var result = document.getElementById('result');
     result.value ="";
 }
