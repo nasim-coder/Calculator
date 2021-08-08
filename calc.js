@@ -17,57 +17,42 @@ function getThree(){
 
 function getFour(){
     let four = document.getElementById('four').value;
-    console.log(four);
-    var result = document.getElementById('result');
-    result.value += four ;
+    var result = document.getElementById('result').value += four;
 }
-
 
 function getFive(){
     let five = document.getElementById('five').value;
-    console.log(five);
-    var result = document.getElementById('result');
-    result.value += five ;
+    var result = document.getElementById('result').value += five;
 }
 
 
 function getSix(){
     let six = document.getElementById('six').value;
-    console.log(six);
-    var result = document.getElementById('result');
-    result.value += six ;
+    var result = document.getElementById('result').value += six;
 }
 
 
 function getSeven(){
     let seven = document.getElementById('seven').value;
-    console.log(seven);
-    var result = document.getElementById('result');
-    result.value += seven ;
+   var result = document.getElementById('result').value += seven;
 }
 
 
 function getEight(){
     let eight = document.getElementById('eight').value;
-    console.log(eight);
-    var result = document.getElementById('result');
-    result.value += eight ;
+    var result = document.getElementById('result').value += eight;
 }
 
 
 function getNine(){
     let nine = document.getElementById('nine').value;
-    console.log(nine);
-    var result = document.getElementById('result');
-    result.value += nine ;
+    var result = document.getElementById('result').value += nine;
 }
 
 
 function getZero(){
     let zero = document.getElementById('zero').value;
-    console.log(zero);
-    var result = document.getElementById('result');
-    result.value += zero ;
+    var result = document.getElementById('result').value += zero;
 }
 
 function clearIt(){
