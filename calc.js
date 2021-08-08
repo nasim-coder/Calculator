@@ -1,28 +1,17 @@
 
-
-console.log("hello");
-
 function getOne(){
     let one = document.getElementById('one').value;
-    console.log(one);
-    var result = document.getElementById('result');
-    result.value += one ;
+    var result = document.getElementById('result').value += one;
 }
-
 
 function getTwo(){
     let two = document.getElementById('two').value;
-    console.log(two);
-    var result = document.getElementById('result');
-    result.value += two ;
+    var result = document.getElementById('result').value += two;;
 }
-
 
 function getThree(){
     let three = document.getElementById('three').value;
-    console.log(three);
-    var result = document.getElementById('result');
-    result.value += three ;
+    var result = document.getElementById('result').value += three;
 }
 
 
