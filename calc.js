@@ -14,7 +14,6 @@ function getThree(){
     var result = document.getElementById('result').value += three;
 }
 
-
 function getFour(){
     let four = document.getElementById('four').value;
     var result = document.getElementById('result').value += four;
@@ -25,30 +24,25 @@ function getFive(){
     var result = document.getElementById('result').value += five;
 }
 
-
 function getSix(){
     let six = document.getElementById('six').value;
     var result = document.getElementById('result').value += six;
 }
-
 
 function getSeven(){
     let seven = document.getElementById('seven').value;
    var result = document.getElementById('result').value += seven;
 }
 
-
 function getEight(){
     let eight = document.getElementById('eight').value;
     var result = document.getElementById('result').value += eight;
 }
 
-
 function getNine(){
     let nine = document.getElementById('nine').value;
     var result = document.getElementById('result').value += nine;
 }
-
 
 function getZero(){
     let zero = document.getElementById('zero').value;
