@@ -53,3 +53,11 @@ function clearIt(){
     var result = document.getElementById('result');
     result.value ="";
 }
+
+function plus(){
+
+}
+
+function minus(){
+    
+}
