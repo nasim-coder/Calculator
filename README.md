@@ -1,4 +1,4 @@
 # Calculator
-This ia a very simpe calculator made for learning purpose.
+This is a very simpe calculator made for learning purpose.
 
  
