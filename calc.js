@@ -55,9 +55,11 @@ function clearIt(){
 }
 
 function plus(){
-
+    let plus = document.getElementById('plus').value;
+    var result = document.getElementById('result').value += plus;
 }
 
 function minus(){
-    
+    let minus = document.getElementById('minus').value;
+    var result = document.getElementById('result').value += minus;
 }
