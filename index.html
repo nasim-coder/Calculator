@@ -1,86 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My calculator</title>
-    <script src="calc.js" ></script>
+    <script src="calc.js"></script>
     <style>
         button {
             width: 70px;
             height: 65px;
             background-color: rgb(47 65 142 / 53%);
         }
+
         .clear {
             background-color: red;
             width: 180px;
         }
+
         .equals {
             background-color: green;
         }
+
         .calc-container {
             text-align: center;
             padding: 50px;
-            margin:auto;
+            margin: auto;
         }
-        .button-container{
+
+        .button-container {
             padding: 5px;
         }
-        .results{
-            background-color:rgb(217 224 141);
+
+        .results {
+            background-color: rgb(217 224 141);
             height: 50px;
             width: 355px;
             text-size-adjust: 10px;
             font-size: 25px;
         }
-        
     </style>
 </head>
+
 <body>
+    <div class="calc-container">
+        <div>
+            <input class="results" id="result" type="text" name="" placeholder="your results here!" />
+        </div>
 
-        <div class="calc-container">
+        <div class="button-container">
             <div>
-            <input class="results" id = "result" type="text" name = "" placeholder="your results here!">
+                <button id="one" type="button" value="1" onclick="getOne()">1</button>
+                <button id="two" type="button" value="2" onclick="getTwo()">2</button>
+                <button id="three" type="button" value="3" onclick="getThree()">
+                    3
+                </button>
+                <button id="four" type="button" value="4" onclick="getFour()">
+                    4
+                </button>
+                <button id="five" type="button" value="5" onclick="getFive()">
+                    5
+                </button>
             </div>
 
-            <div class="button-container">
-
             <div>
-            <button id = "one" type="button" value = "1" onclick="getOne()">1</button>
-            <button id = "two" type="button" value = "2" onclick="getTwo()">2</button>
-            <button id = "three" type="button" value = "3" onclick="getThree()">3</button>
-            <button id = "four" type="button" value = "4" onclick="getFour()">4</button>
-            <button id = "five" type="button" value = "5" onclick="getFive()">5</button>
-            </div>
-
-            <div>
-            <button id = "six" type="button" value = "6" onclick="getSix()">6</button>
-            <button id = "seven" type="button" value = "7" onclick="getSeven()">7</button>
-            <button id = "eight" type="button" value = "8" onclick="getEight()">8</button>
-            <button id = "nine" type="button" value = "9" onclick="getNine()">9</button>
-            <button id = "zero" type="button" value = "0" onclick="getZero()">0</button>
+                <button id="six" type="button" value="6" onclick="getSix()">6</button>
+                <button id="seven" type="button" value="7" onclick="getSeven()">
+                    7
+                </button>
+                <button id="eight" type="button" value="8" onclick="getEight()">
+                    8
+                </button>
+                <button id="nine" type="button" value="9" onclick="getNine()">
+                    9
+                </button>
+                <button id="zero" type="button" value="0" onclick="getZero()">
+                    0
+                </button>
             </div>
 
             <div class="operators">
-            <button id = "plus" type="button" value = "+" onclick="plus()">+</button>
-            <button id = "minus" type="button" value = "-" onclick="minus()">-</button>
-            <button id = "divide" type="button" value = "/" onclick="divide()">/</button>
-            <button id = "multiply" type="button" value = "x" onclick="multiply()">x</button>
-            <button id = "equals" class="equals" type="button" value="=" onclick="">=</button>
+                <button id="plus" type="button" value="+" onclick="plus()">+</button>
+                <button id="minus" type="button" value="-" onclick="minus()">
+                    -
+                </button>
+                <button id="divide" type="button" value="/" onclick="divide()">
+                    /
+                </button>
+                <button id="multiply" type="button" value="x" onclick="multiply()">
+                    x
+                </button>
+                <button id="equals" class="equals" type="button" value="=" onclick="">
+                    =
+                </button>
             </div>
 
             <div>
-                <button id = "clear" class="clear" type="button" value = "clear" onclick="clearIt()">clear</button>
-                <button id = "equals" class="clear" type="button" value="=" onclick="">⌫</button>
-            </div>
-            
+                <button id="clear" class="clear" type="button" value="clear" onclick="clearIt()">
+                    clear
+                </button>
+                <button id="backspace" class="clear" type="button" value="=" onclick="backspace()">
+                    ⌫
+                </button>
             </div>
         </div>
-
-
-
-
-    
+    </div>
 </body>
+
 </html>
