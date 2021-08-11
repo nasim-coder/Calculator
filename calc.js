@@ -65,7 +65,5 @@ function minus() {
 
 function backspace(){
     var result = document.getElementById("result").value;
-    let lastchar = result.length-1;
-    let temp =result.slice(0, lastchar);
-    document.getElementById("result").value=temp;
+    document.getElementById("result").value=result.slice(0, result.length-1);;
 }
