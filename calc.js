@@ -63,6 +63,10 @@ function minus() {
   var result = (document.getElementById("result").value += minus);
 }
 
+function divide(){
+  
+}
+
 function backspace(){
     var result = document.getElementById("result").value;
     document.getElementById("result").value=result.slice(0, result.length-1);
@@ -70,3 +74,4 @@ function backspace(){
 function equals(){
   
 }
+f
