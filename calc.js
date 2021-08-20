@@ -64,7 +64,7 @@ function minus() {
 }
 
 function divide(){
-
+  let divide = document.getElementById("divide").value;
 }
 
 function multiply(){
