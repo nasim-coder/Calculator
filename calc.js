@@ -78,5 +78,5 @@ function backspace(){
     document.getElementById("result").value = result.slice(0, result.length-1);
 }
 function equals(){
-  
+  console.log(document.getElementById("result").value);
 }
