@@ -67,7 +67,7 @@ function minus() {
 }
 
 function divide(){
-
+  let divide = document.getElementById("divide").value;
 }
 
 function multiply(){
@@ -80,3 +80,7 @@ function backspace(){
 function equals(){
   console.log(document.getElementById("result").value);
 }
+<<<<<<< HEAD
+=======
+f
+>>>>>>> a783d9c352ca6b573ba137db799402cef9093224
