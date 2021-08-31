@@ -55,6 +55,9 @@ function clearIt() {
 
 function plus() {
   let plus = document.getElementById("plus").value;
+  if(plus==="+"){
+    backspace();
+  }
   var result = (document.getElementById("result").value += plus);
 }
 
@@ -72,9 +75,8 @@ function multiply(){
 }
 function backspace(){
     var result = document.getElementById("result").value;
-    document.getElementById("result").value=result.slice(0, result.length-1);
+    document.getElementById("result").value = result.slice(0, result.length-1);
 }
 function equals(){
   
 }
-f
