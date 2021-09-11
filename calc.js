@@ -55,10 +55,15 @@ function clearIt() {
 
 function plus() {
   let plus = document.getElementById("plus").value;
-  if(plus==="+"){
+  var result = (document.getElementById("result").value += plus);
+  // console.log(plus);
+  result = document.getElementById("result").value
+  console.log(result[0]);
+
+  if(result[result.length-1]==="+"||"-"||"/"||"x"){
     backspace();
   }
-  var result = (document.getElementById("result").value += plus);
+  
 }
 
 function minus() {
@@ -68,10 +73,12 @@ function minus() {
 
 function divide(){
   let divide = document.getElementById("divide").value;
+  var result = (document.getElementById("result").value += divide)
 }
 
 function multiply(){
-  
+  let multiply = document.getElementById("multiply").value;
+  var result = (document.getElementById("result").value += multiply)
 }
 function backspace(){
     var result = document.getElementById("result").value;
@@ -80,7 +87,3 @@ function backspace(){
 function equals(){
   console.log(document.getElementById("result").value);
 }
-<<<<<<< HEAD
-=======
-f
->>>>>>> a783d9c352ca6b573ba137db799402cef9093224
