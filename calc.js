@@ -1,7 +1,10 @@
+var operand1 = '';
+var operand2 = '';
+
 function getOne() {
   let one = document.getElementById("one").value;
   var result = (document.getElementById("result").value += one);
-}
+}// console.log(plus);
 
 function getTwo() {
   let two = document.getElementById("two").value;
@@ -54,16 +57,10 @@ function clearIt() {
 }
 
 function plus() {
+  var operand1 = document.getElementById("result").value
   let plus = document.getElementById("plus").value;
   var result = (document.getElementById("result").value += plus);
-  // console.log(plus);
-  result = document.getElementById("result").value
-  console.log(result[0]);
-
-  if(result[result.length-1]==="+"||"-"||"/"||"x"){
-    backspace();
-  }
-  
+  console.log(typeof operand1);
 }
 
 function minus() {
@@ -85,5 +82,6 @@ function backspace(){
     document.getElementById("result").value = result.slice(0, result.length-1);
 }
 function equals(){
-  console.log(document.getElementById("result").value);
+  var result = console.log(document.getElementById("result").value);
+
 }
