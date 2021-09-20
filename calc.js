@@ -52,8 +52,7 @@ function getZero() {
 }
 
 function clearIt() {
-  let result = document.getElementById("result");
-  result.value = "";
+  document.getElementById("result").value="";
 }
 
 function plus() {
@@ -87,8 +86,21 @@ function equals(){
   operand2 = result.slice(operand1.length+1, result.length)
   console.log(operand2);
   let operator = result.slice(operand1.length,operand1.length+1)
-  
+  operand1 = parseInt(operand1);
+  operand2 = parseInt(operand2);
+  clearIt();
+  let a = solve(operand1,operand2, operator)
+  console.log(result += a);
 }
+
+
+
+
+
+
+
+
+
 
 function solve(a, b, operator) {
   switch (operator) {
@@ -100,6 +112,6 @@ function solve(a, b, operator) {
     break;
     case "/": return a/b;
     break;
-    default: return ""
+    default: return "You are not good in Math."
   }
 }
