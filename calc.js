@@ -1,6 +1,7 @@
 var operand1 = '';
 var operand2 = '';
 
+
 function getOne() {
   let one = document.getElementById("one").value;
   let result = (document.getElementById("result").value += one);
@@ -56,25 +57,26 @@ function clearIt() {
 }
 
 function plus() {
-  operand1 = document.getElementById("result").value
-  let plus = document.getElementById("plus").value;
-  let result = (document.getElementById("result").value += plus);
-  // console.log(operand1.length);
+  operand1 = document.getElementById("result").value;
+  document.getElementById("result").value += document.getElementById("plus").value;
 }
 
 function minus() {
+  operand1 = document.getElementById("result").value
   let minus = document.getElementById("minus").value;
-  var result = (document.getElementById("result").value += minus);
+  document.getElementById("result").value += minus;
 }
 
 function divide(){
+  operand1 = document.getElementById("result").value
   let divide = document.getElementById("divide").value;
-  var result = (document.getElementById("result").value += divide)
+  document.getElementById("result").value += divide
 }
 
 function multiply(){
+  operand1 = document.getElementById("result").value;
   let multiply = document.getElementById("multiply").value;
-  var result = (document.getElementById("result").value += multiply)
+  document.getElementById("result").value += multiply;
 }
 function backspace(){
     var result = document.getElementById("result").value;
@@ -82,15 +84,12 @@ function backspace(){
 }
 function equals(){
   let result = document.getElementById("result").value;
-  console.log(operand1);
   operand2 = result.slice(operand1.length+1, result.length)
-  console.log(operand2);
   let operator = result.slice(operand1.length,operand1.length+1)
   operand1 = parseInt(operand1);
   operand2 = parseInt(operand2);
   clearIt();
-  let a = solve(operand1,operand2, operator)
-  console.log(result += a);
+  document.getElementById("result").value+=solve(operand1,operand2, operator);
 }
 
 
