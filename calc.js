@@ -11,8 +11,8 @@ function getTwo() {
 }
 
 function getThree() {
-  let three = document.getElementById("three").value;
-  let result = (document.getElementById("result").value += three);
+
+  let result = (document.getElementById("result").value += document.getElementById("three").value;
 }
 
 function getFour() {
