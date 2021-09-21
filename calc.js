@@ -17,12 +17,12 @@ function getThree() {
 
 function getFour() {
  
-  let result = document.getElementById("result").value += document.getElementById("four").value);
+  let result = document.getElementById("result").value += document.getElementById("four").value;
 }
 
 function getFive() {
   
-  let result = document.getElementById("result").value += fdocument.getElementById("five").value;
+  let result = document.getElementById("result").value += document.getElementById("five").value;
 }
 
 function getSix() {
