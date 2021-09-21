@@ -31,8 +31,8 @@ function getSix() {
 }
 
 function getSeven() {
-  let seven = document.getElementById("seven").value;
-  let result = (document.getElementById("result").value += seven);
+
+  let result = document.getElementById("result").value += document.getElementById("seven").value;
 }
 
 function getEight() {
