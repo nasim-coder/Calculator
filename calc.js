@@ -2,13 +2,12 @@ var operand1 = "";
 var operand2 = "";
 
 function getOne() {
-  let one = document.getElementById("one").value;
-  let result = (document.getElementById("result").value += one);
+  let result = (document.getElementById("result").value += document.getElementById("one").value;
 } 
 
 function getTwo() {
-  let two = document.getElementById("two").value;
-  let result = (document.getElementById("result").value += two);
+  
+  let result = document.getElementById("result").value += document.getElementById("two").value;
 }
 
 function getThree() {
