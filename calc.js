@@ -2,7 +2,7 @@ var operand1 = "";
 var operand2 = "";
 
 function getOne() {
-  let result = (document.getElementById("result").value += document.getElementById("one").value;
+  let result = document.getElementById("result").value += document.getElementById("one").value;
 } 
 
 function getTwo() {
@@ -21,13 +21,13 @@ function getFour() {
 }
 
 function getFive() {
-  let five = document.getElementById("five").value;
-  let result = (document.getElementById("result").value += five);
+  
+  let result = document.getElementById("result").value += fdocument.getElementById("five").value;
 }
 
 function getSix() {
-  let six = document.getElementById("six").value;
-  let result = (document.getElementById("result").value += six);
+
+  let result = document.getElementById("result").value += document.getElementById("six").value;
 }
 
 function getSeven() {
