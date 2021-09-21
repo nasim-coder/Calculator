@@ -12,12 +12,12 @@ function getTwo() {
 
 function getThree() {
 
-  let result = (document.getElementById("result").value += document.getElementById("three").value;
+  let result = document.getElementById("result").value += document.getElementById("three").value;
 }
 
 function getFour() {
-  let four = document.getElementById("four").value;
-  let result = (document.getElementById("result").value += four);
+ 
+  let result = document.getElementById("result").value += document.getElementById("four").value);
 }
 
 function getFive() {
