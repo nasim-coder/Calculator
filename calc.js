@@ -1,6 +1,7 @@
 var operand1 = "";
 var operand2 = "";
 
+
 function getOne() {
   let result = document.getElementById("result").value += document.getElementById("one").value;
 } 
@@ -36,18 +37,18 @@ function getSeven() {
 }
 
 function getEight() {
-  let eight = document.getElementById("eight").value;
-  let result = (document.getElementById("result").value += eight);
+  
+  let result = document.getElementById("result").value += document.getElementById("eight").value;
 }
 
 function getNine() {
-  let nine = document.getElementById("nine").value;
-  let result = (document.getElementById("result").value += nine);
+  
+  let result = document.getElementById("result").value += document.getElementById("nine").value;
 }
 
 function getZero() {
-  let zero = document.getElementById("zero").value;
-  let result = (document.getElementById("result").value += zero);
+  
+  let result = document.getElementById("result").value += document.getElementById("zero").value;
 }
 
 function clearIt() {
