@@ -2,53 +2,43 @@ var operand1 = "";
 var operand2 = "";
 
 function getOne() {
-  let result = (document.getElementById("result").value +=
-    document.getElementById("one").value);
+  let result = (document.getElementById("result").value += document.getElementById("one").value);
 }
 
 function getTwo() {
-  let result = (document.getElementById("result").value +=
-    document.getElementById("two").value);
+  let result = (document.getElementById("result").value += document.getElementById("two").value);
 }
 
 function getThree() {
-  let result = (document.getElementById("result").value +=
-    document.getElementById("three").value);
+  let result = (document.getElementById("result").value += document.getElementById("three").value);
 }
 
 function getFour() {
-  let result = (document.getElementById("result").value +=
-    document.getElementById("four").value);
+  let result = (document.getElementById("result").value += document.getElementById("four").value);
 }
 
 function getFive() {
-  let result = (document.getElementById("result").value +=
-    document.getElementById("five").value);
+  let result = (document.getElementById("result").value += document.getElementById("five").value);
 }
 
 function getSix() {
-  let result = (document.getElementById("result").value +=
-    document.getElementById("six").value);
+  let result = (document.getElementById("result").value += document.getElementById("six").value);
 }
 
 function getSeven() {
-  let result = (document.getElementById("result").value +=
-    document.getElementById("seven").value);
+  let result = (document.getElementById("result").value += document.getElementById("seven").value);
 }
 
 function getEight() {
-  let result = (document.getElementById("result").value +=
-    document.getElementById("eight").value);
+  let result = (document.getElementById("result").value += document.getElementById("eight").value);
 }
 
 function getNine() {
-  let result = (document.getElementById("result").value +=
-    document.getElementById("nine").value);
+  let result = (document.getElementById("result").value += document.getElementById("nine").value);
 }
 
 function getZero() {
-  let result = (document.getElementById("result").value +=
-    document.getElementById("zero").value);
+  let result = (document.getElementById("result").value += document.getElementById("zero").value);
 }
 
 function clearIt() {
@@ -57,8 +47,7 @@ function clearIt() {
 
 function plus() {
   operand1 = document.getElementById("result").value;
-  document.getElementById("result").value +=
-    document.getElementById("plus").value;
+  document.getElementById("result").value += document.getElementById("plus").value;
 }
 
 function minus() {
