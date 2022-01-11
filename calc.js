@@ -1,5 +1,5 @@
-var operand1 = "";
-var operand2 = "";
+let operand1 = "";
+let operand2 = "";
 
 function getOne() {
   let result = (document.getElementById("result").value += document.getElementById("one").value);
@@ -78,11 +78,7 @@ function equals() {
   operand1 = parseInt(operand1);
   operand2 = parseInt(operand2);
   clearIt();
-  document.getElementById("result").value += solve(
-    operand1,
-    operand2,
-    operator
-  );
+  document.getElementById("result").value += solve(operand1, operand2, operator);
 }
 
 function solve(a, b, operator) {
